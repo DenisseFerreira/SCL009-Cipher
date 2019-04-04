@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cipher Cesar</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
-</html>
+
+
+</head>
+<body>
+   <h1>Bienvenido!</h1>
+   <p1>Ingresa tu texto aquí</p1> <br>
+     <input type="text" value="" id="textoingresado"> <br> <br>
+
+     <p2>Ingresa tu número aquí</p2> <br>
+     <input type="number" value="" id="offsetingresado"> <br> <br>
+   
+     <input type="button" value="cifrar" id="botoncifrar" onclick="llamarcifrar()">
+     <input type="button" value="descifrar" id="botondescifrar" onclick="llamardescifrar()"> <br> <br>
+     
+     
+     <p3> <b>Resultado</b></p3> <br>
+     <textarea name=" " rows="10" cols="40" id="textoresultado" ></textarea>
+
+    </body>
+</html>     
