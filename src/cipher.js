@@ -20,6 +20,10 @@ window.cipher = {
     /* Acá va tu código */
     var midescifrado="";
     for (var i=0; i<mipalabra.length; i++){
+      if(mipalabra[i]==' '){
+        midescifrado=midescifrado + mipalabra[i];
+        continue;
+      }
       var x = (mipalabra[i].charCodeAt(0));
       var minuevacasilla=parseInt(x)-65 - parseInt(offset);       
       minuevacasilla=minuevacasilla%26;
