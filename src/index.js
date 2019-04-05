@@ -1,28 +1,20 @@
-var llamarcifrar=function(){
-    console.log("Dentro de boton cifrar");
+
+var botoncifrar = document.getElementById("botoncifrar");
+    botoncifrar.addEventListener('click',() => {
+     let mitexto=document.getElementById("textoingresado").value;
+     let mioffset=document.getElementById("offsetingresado").value;
+     let miresultado=document.getElementById("textoresultado");
+     miresultado.innerHTML= window.cipher.encode(mitexto,mioffset);
+}
+);
+
+
+var botondescifrar = document.getElementById("botondescifrar");
+    botondescifrar.addEventListener("click",() => {
     let mitexto=document.getElementById("textoingresado").value;
-    //mitexto.toUpperCase();
-    console.log(mitexto);
-
     let mioffset=document.getElementById("offsetingresado").value;
-    console.log(mioffset);
-
     let miresultado=document.getElementById("textoresultado");
-    miresultado.innerHTML=cifrar(mitexto,mioffset);
+    miresultado.innerHTML=window.cipher.decode(mitexto,mioffset);
 }
-
-
-var llamardescifrar=function(){
-console.log("Dentro de boton descifrar");
-
-let mitexto=document.getElementById("textoingresado").value;
-//mitexto.toUpperCase();
-console.log(mitexto);
-
-let mioffset=document.getElementById("offsetingresado").value;
-console.log(mioffset);
-
-let miresultado=document.getElementById("textoresultado");
-miresultado.innerHTML=descifrar(mitexto,mioffset);
-
-}
+); 
+  

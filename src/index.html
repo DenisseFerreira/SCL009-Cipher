@@ -7,11 +7,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-
-
+   
 </head>
 <body>
    <h1>Bienvenido!</h1>
@@ -21,12 +17,15 @@
      <p2>Ingresa tu número aquí</p2> <br>
      <input type="number" value="" id="offsetingresado"> <br> <br>
    
-     <input type="button" value="cifrar" id="botoncifrar" onclick="llamarcifrar()">
-     <input type="button" value="descifrar" id="botondescifrar" onclick="llamardescifrar()"> <br> <br>
+     <button id="botoncifrar">Cifrar</button>
+     <button id="botondescifrar">Descifrar</button> <br> <br>
      
      
      <p3> <b>Resultado</b></p3> <br>
      <textarea name=" " rows="10" cols="40" id="textoresultado" ></textarea>
-
+ 
+     <script src="cipher.js"></script>
+     <script src="index.js"></script>
+ 
     </body>
 </html>     
