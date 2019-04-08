@@ -15,7 +15,7 @@ describe('cipher', () => {
     });
 
     it('debería retornar espacio',()=> {
-      assert.equal(cipher.encode(" ", mipalabra)," ")
+      assert.equal(cipher.encode(" ", 33)," ")
     });
   });
 
@@ -27,6 +27,10 @@ describe('cipher', () => {
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33',()=> { assert.equal(cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG",33),"ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
+    });
+
+    it('debería retornar espacio',()=> {
+      assert.equal(cipher.decode(" ", 33)," ")
     });
   });
 
