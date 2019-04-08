@@ -6,6 +6,18 @@ body
  background: url(matrimonio.png);
 } 
 
+h1
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+
+}
+
+p
+{  font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+}
+
 #textoingresado{
 
     display: inline-block;
