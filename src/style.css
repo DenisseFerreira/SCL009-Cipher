@@ -1,7 +1,10 @@
 /* Acá va tu código */
 
 body
-{ background: center;} 
+{ background: center;
+ text-align: center;
+ background: url(matrimonio.png);
+} 
 
 #textoingresado{
 
@@ -24,5 +27,5 @@ body
     -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
     -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); 
 }
