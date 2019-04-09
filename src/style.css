@@ -3,20 +3,25 @@
 body
 { background: center;
  text-align: center;
- background: url(matrimonio.png);
- background-position: -15% 0; 
+ background: url(image2.png);
+ background-position: -5% 0; 
  background-attachment:fixed;
+
 } 
 
 h1
 {
     font-family: 'Satisfy', cursive;
     font-size: 70px;
-    -webkit-text-: 3px white;
-
+    text-shadow: -2px -2px 1px rgb(255, 254, 254), 2px 2px 1px
+     rgb(250, 248, 248), -2px 2px 1px  rgb(250, 248, 248), 2px -2px 1px
+      rgb(255, 255, 255);
 }
 
 p
 {  font-family: 'Shadows Into Light Two', cursive;
     font-size: 30px;
+    text-shadow: -2px -2px 1px rgb(255, 254, 254), 2px 2px 1px
+     rgb(250, 248, 248), -2px 2px 1px  rgb(250, 248, 248), 2px -2px 1px
+      rgb(255, 255, 255);
 }
