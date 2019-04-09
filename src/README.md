@@ -1,8 +1,25 @@
 # Cifrado César
 
+
+*cursiva* <br>
+**negrita** <br>
+Para agregar un link [lo que quiero que diga y me lleva a la pagina al pincharlo](https://fonts.google.com/)
+
+Para agregar imagenes (hacer carpeta de imagen y seguir la ruta en el proyecto, si es de internet colocar la url ) ![codigo(atributo de la imagen)](img (carpeta donde esta guardado)/codigo.jp(nombre de la imagen)) <br> <br>
+
+
+
+
+
+
+
+
+
+
+
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![cifrador](img/cifrador_cesar.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
@@ -33,10 +50,9 @@ Aplicación web destinada para novios. Entrega el servicio al usuario de cifrar 
 
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
+La aplicación web se puede utilizar desde cualquier computador con tan solo ingresar al link correspondiente.
+Una vez en el sitio puedes conseguir codificar el texto que necesites mediante el ingreso de este en el cuadro (*Ingresa tu texto aquí* ), luego debe ingresar el número correspondiente al mes de la boda (1 al 12) y presionar el botón **Cifrar**, si por el contrario lo que necesitas es descifrar debes ingresar el texto en el cuadro (*Ingresa tu texto aquí* ) luego debe ingresar el número correspondiente al mes de la boda (1 al 12) y presionar el botón **Descifrar**. En el cuadro de **Resultado** se entregará el el texto codificado o decodificado según corresponda.
 
 #### Quiénes son los principales usuarios de producto.
 
@@ -47,16 +63,14 @@ Novios que estén en proceso de redactar sus partes de matrimonio y quieran entr
 - Poder reflejar lo que son como pareja, como es su personalidad y que estilo de matrimonio será (campestre, urbano, etc.)
 
 #### Cómo crees que el producto que estás creando está resolviendo sus problemas.
-- Al utilizar el cifrado cesar podrán tener un producto personalizado, con un toque de misterio que releje la celebración que están planificando.
+- Al utilizar el cifrado cesar podrán tener un producto personalizado, con un toque de misterio que refleje la celebración que están planificando.
 
 
-#### Scripts / Archivos
 
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-.
+
+
+
+
 
 
 ## Recursos y temas relacionados
