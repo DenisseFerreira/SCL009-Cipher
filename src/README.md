@@ -14,22 +14,44 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 
 De esta manera se obtiene como resultado un nuevo mensaje, que tendría las características de secreto u oculto y con el cual la presentación del parte de matrimonio será muchos más llamativa.
 
-## Pruebas o test realizados 
-
-
-- Verificar tu implementación con **pruebas unitarias**.
-- Entender las **necesidades del usuario** y cómo proponer una solución.
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-
-
-
 #### Definición del producto
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+La definición se llevó a cabo tras entender que los usuarios requieren aplicaciones sencillas, cómodas y fáciles de entender y usar.
+Por esto tras los primeros esbozos en papel se definió que de varias pantallas a usar, solo con una bastaba para realizar la aplicación. 
 
+
+Varias pantallas
+![prototipo1](img/prototipo1.png)
+
+Una sola pantalla
+![prototipo2](img/prototipo2.png)
+
+Esta decisión fue tomada tras la realización del feedback en clases. Luego de mostrar al resto de compañeras el flujo de interfaz y este prototipo.
+
+## Pruebas o test realizados 
+ 
+ **Pruebas unitarias** : <br>
+Mediante la realización de pruebas al usuario, se pudo conocer si el prototipo planteado era fácil de entender y satisfacía las necesidades del usuario o no. 
+
+Imágenes usuario 1
+![daniel1](img/daniel1.png)
+![daniel2](img/daniel2.png)
+![daniel3](img/daniel3.png)
+![daniel4](img/daniel4.png)
+
+Imágenes usuario 2
+![marce1](img/marce1.png)
+![marce2](img/marce2.png)
+![marce3](img/marce3.png)
+
+
+#### Forma de utilizar la aplicación web
 
 La aplicación web se puede utilizar desde cualquier computador con tan solo ingresar al link correspondiente.
-Una vez en el sitio puedes conseguir codificar el texto que necesites mediante el ingreso de este en el cuadro (*Ingresa tu texto aquí* ), luego debe ingresar el número correspondiente al mes de la boda (1 al 12) y presionar el botón **Cifrar**, si por el contrario lo que necesitas es descifrar debes ingresar el texto en el cuadro (*Ingresa tu texto aquí* ) luego debe ingresar el número correspondiente al mes de la boda (1 al 12) y presionar el botón **Descifrar**. En el cuadro de **Resultado** se entregará el el texto codificado o decodificado según corresponda.
+Una vez en el sitio puedes conseguir codificar el texto que necesites mediante el ingreso de este en el cuadro (*Ingresa el texto que necesitas cifrar
+para tu parte de matrimonio*), luego debe ingresar el número correspondiente al mes de la boda (1 al 12) y presionar el botón **Cifrar**, si por el contrario lo que necesitas es descifrar debes ingresar el texto en el cuadro (*Ingresa el texto que necesitas cifrar
+para tu parte de matrimonio*) luego debe ingresar el número correspondiente al mes de la boda (1 al 12) y presionar el botón **Descifrar**. En el cuadro de **Resultado** se entregará el el texto codificado o decodificado según corresponda.
+
 
 #### Quiénes son los principales usuarios de producto.
 
