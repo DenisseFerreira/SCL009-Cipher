@@ -3,8 +3,10 @@
 body
 { background: center;
  text-align: center;
- background: url(image2.png);
- background-position: -5% 0; 
+ background: url(matri.png);
+ background-repeat:no-repeat;
+ background-position: 10% 0; 
+ background-size: 100%;
  background-attachment:fixed;
 
 } 
@@ -12,16 +14,24 @@ body
 h1
 {
     font-family: 'Satisfy', cursive;
-    font-size: 70px;
+    font-size: 60px;
     text-shadow: -2px -2px 1px rgb(255, 254, 254), 2px 2px 1px
      rgb(250, 248, 248), -2px 2px 1px  rgb(250, 248, 248), 2px -2px 1px
       rgb(255, 255, 255);
 }
 
-p
-{  font-family: 'Shadows Into Light Two', cursive;
-    font-size: 30px;
-    text-shadow: -2px -2px 1px rgb(255, 254, 254), 2px 2px 1px
-     rgb(250, 248, 248), -2px 2px 1px  rgb(250, 248, 248), 2px -2px 1px
-      rgb(255, 255, 255);
+
+div 
+{   font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    text-shadow: -1px -1px 1px rgb(255, 254, 254), 
+                  1px 1px 1px  rgb(250, 248, 248),
+                  -1px 1px 1px rgb(250, 248, 248), 
+                  1px -1px 1px rgb(255, 255, 255);
+}
+
+#offsetingresado
+{
+width: 100px;
+height: 20px;
 }
