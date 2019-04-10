@@ -28,6 +28,15 @@ Una sola pantalla
 
 Esta decisión fue tomada tras la realización del feedback en clases. Luego de mostrar al resto de compañeras el flujo de interfaz y este prototipo.
 
+También como parte de este proceso se utilizó Trello para tener una mejor planificación de los tiempos.
+![trello1](img/trello1.png) <br>
+![trello2](img/trello2.png) <br>
+![trello3](img/trello3.png) <br>
+![trello4](img/trello4.png) <br>
+
+
+
+
 ## Pruebas o test realizados 
  
  **Pruebas unitarias** : <br>
